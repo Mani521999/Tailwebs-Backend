@@ -35,3 +35,17 @@ A full-stack Assignment Portal where teachers can create, publish, and track ass
 1. Navigate to the backend folder:
    ```bash
    cd backend
+2. ENV Setup
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_super_secret_key
+JWT_EXPIRES_IN=1h
+
+3. Build and Start
+# For development (with auto-reload)
+npm run dev
+
+# For production
+npm run build
+npm start
+
